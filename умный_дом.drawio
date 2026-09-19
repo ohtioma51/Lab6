@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0" pages="2">
+  <diagram id="uml-smart-home" name="Умный дом">
+    <mxGraphModel dx="1406" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZUgcaA1PiTjgnC-6RddL-4" parent="1" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Умный дом&lt;/font&gt;" vertex="1">
+          <mxGeometry height="620" width="420" x="480" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUgcaA1PiTjgnC-6RddL-7" edge="1" parent="1" source="actor_owner" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=#660033;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="uc_security">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="130" />
+              <mxPoint x="420" y="205" />
+              <mxPoint x="510" y="205" />
+              <mxPoint x="510" y="160" />
+              <mxPoint x="690" y="160" />
+            </Array>
+            <mxPoint x="690" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUgcaA1PiTjgnC-6RddL-8" edge="1" parent="1" source="actor_owner" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=#660033;" target="uc_scenarios">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUgcaA1PiTjgnC-6RddL-9" edge="1" parent="1" source="actor_owner" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#660033;" target="uc_stats">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUgcaA1PiTjgnC-6RddL-10" edge="1" parent="1" source="actor_owner" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#660033;strokeWidth=2;" target="uc_devices">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_owner" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBorderColor=#FFFFFF;strokeColor=#660033;strokeWidth=2;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Владелец дома&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="280" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUgcaA1PiTjgnC-6RddL-6" edge="1" parent="1" source="actor_family" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=#006600;endSize=6;startSize=6;strokeWidth=2;entryX=0.091;entryY=0.228;entryDx=0;entryDy=0;entryPerimeter=0;" target="uc_light">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="267" />
+              <mxPoint x="460" y="90" />
+              <mxPoint x="560" y="90" />
+              <mxPoint x="560" y="111.4" />
+            </Array>
+            <mxPoint x="540" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUgcaA1PiTjgnC-6RddL-12" edge="1" parent="1" source="actor_family" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeWidth=2;strokeColor=#006600;" target="uc_security">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420.03" y="267" />
+              <mxPoint x="420.03" y="220" />
+              <mxPoint x="520" y="220" />
+              <mxPoint x="520" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUgcaA1PiTjgnC-6RddL-14" edge="1" parent="1" source="actor_family" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeWidth=2;strokeColor=#006600;" target="uc_stats">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_family" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;strokeColor=#006600;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Член семьи&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="280" y="237" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUgcaA1PiTjgnC-6RddL-15" edge="1" parent="1" source="actor_admin" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#FF8000;curved=0;" target="uc_users">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="409" />
+              <mxPoint x="410" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUgcaA1PiTjgnC-6RddL-16" edge="1" parent="1" source="actor_admin" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#FF8000;curved=0;" target="uc_diag">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUgcaA1PiTjgnC-6RddL-17" edge="1" parent="1" source="actor_admin" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#FF8000;curved=0;" target="uc_devices">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="409" />
+              <mxPoint x="430" y="445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor_admin" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#FF8000;strokeWidth=2;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Администратор системы&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="280" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUgcaA1PiTjgnC-6RddL-18" edge="1" parent="1" source="actor_engineer" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#004C99;strokeWidth=2;curved=0;" target="uc_diag">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="550.03" />
+              <mxPoint x="400" y="650.03" />
+              <mxPoint x="690" y="650.03" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor_engineer" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;strokeColor=#004C99;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Сервисный инженер&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="280" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_light" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Управление светом и климатом&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="320" x="530" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_security" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Управление безопасностью&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="320" x="530" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_scenarios" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Настройка сценариев&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="320" x="530" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUgcaA1PiTjgnC-6RddL-13" edge="1" parent="1" source="uc_stats" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#660033;" target="uc_users" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_stats" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Просмотр статистики&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="320" x="530" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_devices" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Управление устройствами&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="320" x="530" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_users" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Управление пользователями&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="320" x="530" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_diag" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Диагностика и ремонт&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="320" x="530" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUgcaA1PiTjgnC-6RddL-5" edge="1" parent="1" source="actor_owner" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=#660033;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="uc_light">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUgcaA1PiTjgnC-6RddL-19" edge="1" parent="1" source="actor_engineer" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.308;entryY=0.961;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#004C99;curved=0;" target="uc_devices">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="550.03" />
+              <mxPoint x="390" y="490.03" />
+              <mxPoint x="628.62" y="490.03" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="P9q2IEAv4rgTe9_YCe6_" name="Страница-2">
+    <mxGraphModel dx="1406" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
