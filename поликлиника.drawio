@@ -1,0 +1,152 @@
+<mxfile host="Electron" agent="Mozilla/5.0" pages="2">
+  <diagram id="uml-smart-home" name="Умный дом">
+    <mxGraphModel dx="1414" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZUgcaA1PiTjgnC-6RddL-4" parent="1" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Поликлиника&lt;/font&gt;" vertex="1">
+          <mxGeometry height="620" width="420" x="480" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LM_DPKT6k-eMARMuahdr-2" edge="1" parent="1" source="actor_owner" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeColor=light-dark(#660033, #ededed);endSize=6;strokeWidth=2;" target="uc_light">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LM_DPKT6k-eMARMuahdr-3" edge="1" parent="1" source="actor_owner" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;curved=0;strokeColor=light-dark(#660033, #ededed);" target="uc_scenarios">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_owner" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBorderColor=#FFFFFF;strokeColor=#660033;strokeWidth=2;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Пациент&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="280" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LM_DPKT6k-eMARMuahdr-6" edge="1" parent="1" source="actor_family" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeColor=light-dark(#006600, #ededed);strokeWidth=2;" target="uc_security">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="267" />
+              <mxPoint x="440" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor_family" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;strokeColor=#006600;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Врач&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="280" y="237" as="geometry" />
+        </mxCell>
+        <mxCell id="LM_DPKT6k-eMARMuahdr-10" edge="1" parent="1" source="actor_admin" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#ff8000, #ededed);curved=0;" target="uc_light">
+          <mxGeometry relative="1" x="-0.2189" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="409" />
+              <mxPoint x="370" y="100" />
+              <mxPoint x="530" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor_admin" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#FF8000;strokeWidth=2;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Регистратор&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="280" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="LM_DPKT6k-eMARMuahdr-14" edge="1" parent="1" source="actor_engineer" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeColor=light-dark(#004c99, #ededed);strokeWidth=2;" target="uc_diag">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_engineer" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;strokeColor=#004C99;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Администратор&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="280" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_light" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Запись на прием&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="320" x="530" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_security" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Список пациентов на день&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="320" x="530" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_scenarios" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Просмотр медкарты&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="320" x="530" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_stats" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Просмотр расписания врача&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="320" x="530" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_devices" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Управление расписанием&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="320" x="530" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_diag" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Управление учетными записями&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="320" x="530" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="LM_DPKT6k-eMARMuahdr-5" edge="1" parent="1" source="actor_owner" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;curved=0;strokeColor=light-dark(#660033, #ededed);" target="uc_stats">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="120" as="sourcePoint" />
+            <mxPoint x="580" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LM_DPKT6k-eMARMuahdr-7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeColor=light-dark(#006600, #ededed);strokeWidth=2;" target="uc_scenarios">
+          <mxGeometry relative="1" x="0.0932" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="270" />
+              <mxPoint x="480" y="270" />
+              <mxPoint x="480" y="260" />
+              <mxPoint x="530" y="260" />
+            </Array>
+            <mxPoint x="310" y="267" as="sourcePoint" />
+            <mxPoint x="570" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LM_DPKT6k-eMARMuahdr-8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeColor=light-dark(#006600, #ededed);strokeWidth=2;" target="uc_stats">
+          <mxGeometry relative="1" x="0.0677" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="270" />
+              <mxPoint x="470" y="310" />
+              <mxPoint x="500" y="310" />
+              <mxPoint x="500" y="405" />
+            </Array>
+            <mxPoint x="310" y="270" as="sourcePoint" />
+            <mxPoint x="560" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LM_DPKT6k-eMARMuahdr-9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeColor=light-dark(#006600, #ededed);strokeWidth=2;" target="uc_devices">
+          <mxGeometry relative="1" x="-0.1356" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="270" />
+              <mxPoint x="350" y="342" />
+              <mxPoint x="450" y="342" />
+              <mxPoint x="450" y="485" />
+            </Array>
+            <mxPoint x="310" y="270" as="sourcePoint" />
+            <mxPoint x="570" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LM_DPKT6k-eMARMuahdr-11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#ff8000, #ededed);curved=0;" target="uc_security">
+          <mxGeometry relative="1" x="-0.1165" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="410" />
+              <mxPoint x="380" y="210" />
+              <mxPoint x="530" y="210" />
+            </Array>
+            <mxPoint x="310" y="410" as="sourcePoint" />
+            <mxPoint x="960" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LM_DPKT6k-eMARMuahdr-12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#ff8000, #ededed);curved=0;" target="uc_stats">
+          <mxGeometry relative="1" x="0.5569" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="410" />
+              <mxPoint x="410" y="460" />
+              <mxPoint x="530" y="460" />
+            </Array>
+            <mxPoint x="310" y="410" as="sourcePoint" />
+            <mxPoint x="570" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LM_DPKT6k-eMARMuahdr-13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=light-dark(#ff8000, #ededed);curved=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc_devices">
+          <mxGeometry relative="1" x="0.4892" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="410" />
+              <mxPoint x="400" y="520" />
+              <mxPoint x="530" y="520" />
+            </Array>
+            <mxPoint x="310" y="410" as="sourcePoint" />
+            <mxPoint x="600" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="P9q2IEAv4rgTe9_YCe6_" name="Страница-2">
+    <mxGraphModel dx="1406" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
